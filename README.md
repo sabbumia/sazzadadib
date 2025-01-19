@@ -90,4 +90,4 @@ This project is licensed under the [MIT License](./LICENSE).
 
 You can reach me via:
 
-- 📧 Email: priyanshumth0808@gmail.com
+- 📧 Email: sazzad.adib1@gmail.com
