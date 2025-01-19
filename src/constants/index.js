@@ -64,7 +64,7 @@ export const PROJECTS = [
     description:
       "Developed a lightweight, small language model (SLM)-based educational chatbot for offline and device-efficient operations. Designed a user-friendly interface and achieved 75% question-answering accuracy using the RAGChecker framework on a custom dataset of 4,000 questions.",
     technologies: ["LLMs", "Python", "Ollama", "LangChain", "HuggingFace", "FastAPI", "Prompt Engineering", "Git"],
-    githubLink: "", // Add GitHub link here
+    githubLink: "https://github.com/sazzadadib", // Add GitHub link here
     liveLink: "", // Add live link here
   },
   {
@@ -73,7 +73,7 @@ export const PROJECTS = [
     description:
       "Predicted patient status and injury type using the 'Road Traffic Accident Dataset, Rawalpindi-Punjab, Pakistan'. Achieved 99.1% accuracy for patient status prediction and 89% accuracy for injury type prediction. Contributed to social awareness and emergency response strategies through detailed data analysis.",
     technologies: ["Python", "Scikit-learn", "Numpy", "Pandas", "Git"],
-    githubLink: "", // Add GitHub link here
+    githubLink: "https://github.com/sazzadadib", // Add GitHub link here
     liveLink: "", // Add live link here
   },
   {
@@ -82,7 +82,7 @@ export const PROJECTS = [
     description:
       "Collaborated with a team to develop a scalable movie reservation website using Agile Scrum methodology. Contributed to frontend and backend development, adhering to the MVC architectural pattern. Extensively documented the codebase using JSDoc and designed unit tests with Jest.",
     technologies: ["Node.js", "React", "MongoDB", "Postman", "Jest", "Trello", "GitHub Wiki", "JSDoc", "Git"],
-    githubLink: "", // Add GitHub link here
+    githubLink: "https://github.com/sazzadadib", // Add GitHub link here
     liveLink: "", // Add live link here
   },
   {
@@ -91,7 +91,7 @@ export const PROJECTS = [
     description:
       "Developed a travel booking website featuring SQL-based dynamic CRUD API functionality. Implemented end-to-end features for travel and hotel booking, delivering a seamless user experience for efficient travel planning.",
     technologies: ["PHP", "MySQL", "JavaScript", "CSS", "Git"],
-    githubLink: "", // Add GitHub link here
+    githubLink: "https://github.com/sazzadadib", // Add GitHub link here
     liveLink: "", // Add live link here
   },
   {
@@ -100,7 +100,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information, built using React, Tailwind CSS, and Framer Motion for smooth animations.",
     technologies: ["HTML", "CSS", "React", "Tailwind CSS", "Framer Motion"],
-    githubLink: "https://github.com/priyanshuuranjan/MyPortfolio",
+    githubLink: "https://github.com/sazzadadib",
     liveLink: "",
   },
   {
@@ -109,7 +109,7 @@ export const PROJECTS = [
     description:
       "Built a comprehensive School Management System using Core Java, designed to handle administrative tasks such as student registration, grades management, attendance tracking, and reporting. The system features a GUI built with Java Swing for an intuitive interface, making school management more efficient.",
     technologies: ["Core Java", "GUI (Java Swing)", "Git"],
-    githubLink: "", // Add GitHub link here
+    githubLink: "https://github.com/sazzadadib", // Add GitHub link here
     liveLink: "", // Add live link here
   },
 ];
