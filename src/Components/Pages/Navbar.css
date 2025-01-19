@@ -1,0 +1,140 @@
+/* mavbar.jsx code when i need to add more section then i use this hole code  */
+/* import "./Navbar.css";
+import menu_open from "../../assets/menu_open.svg";
+import menu_close from "../../assets/menu_close.svg";
+import { useRef } from "react";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+
+const Navbar = () => {
+  const menuRef = useRef();
+
+  const openMenu = () => {
+    menuRef.current.style.right = "0";
+  };
+  const closeMenu = () => {
+    menuRef.current.style.right = "-350px";
+  };
+
+  return (
+    <nav className="mb-20 flex item-center justify-between py-6">
+      <div className="flex flex-shrink-0 items-center">
+        <div className="mx-2 w-10 text-xl">Priyanshu</div>
+      </div>
+
+      <img
+        src={menu_open}
+        onClick={openMenu}
+        alt="Open Menu"
+        className="nav-mob-open mt-7"
+      />
+
+      <ul ref={menuRef} className="nav-menu">
+        <img
+          src={menu_close}
+          onClick={closeMenu}
+          alt="Close Menu"
+          className="nav-mob-close mt-7"
+        />
+
+        <li>Home</li>
+        <li>About Me</li>
+        <li>Services</li>
+        <li>Project</li>
+        <li>Contact</li>
+
+        <div className="m-5 flex item-center justify-center gap-5 text-2xl">
+          <a
+            href="https://www.linkedin.com/in/priyanshuranjan45/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin />
+          </a>
+          <a
+            href="https://github.com/priyanshuuranjan"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub />
+          </a>
+        </div>
+      </ul>
+    </nav>
+  );
+};
+
+export default Navbar;
+ */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 170px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 60px;
+  font-size: 20px;
+}
+.nav-connect {
+  padding: 20px 40px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, #da7c25 0.36%, #8923e1);
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.nav-connect:hover {
+  transform: scale(1.05);
+}
+
+.nav-mob-close {
+  display: none;
+}
+.nav-mob-open {
+  display: none;
+}
+@media (max-width: 768px) {
+  .navbar {
+    margin: 20px 50px;
+  }
+  .nav-contact {
+    display: none;
+  }
+  .nav-mob-open {
+    display: block;
+    margin-left: 420px;
+    right: 10px;
+  }
+
+  .nav-mob-close {
+    display: block;
+    position: relative;
+    top: 30px;
+    left: 290px;
+    width: 30px;
+  }
+  .nav-menu {
+    position: fixed;
+    flex-direction: column;
+    align-items: start;
+    top: 0;
+    gap: 30px;
+    background-color: #1a1a1a;
+    width: 350px;
+    z-index: 20;
+    transition: right 0.5s;
+    right: -350px;
+  }
+  .nav-menu li {
+    font-size: 30px;
+    padding-left: 100px;
+    flex-direction: row;
+    gap: 20px;
+  }
+}
