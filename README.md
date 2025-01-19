@@ -33,7 +33,7 @@ Make sure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/priyanshuuranjan/your-portfolio.git
+   git clone https://github.com/sabbumia/sazzadadib.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -76,7 +76,7 @@ After the deployment is complete, you will receive a link to your live portfolio
 
 ## 🚀 Live Demo
 
-Check out the live version of my portfolio here: [Portfolio](https://your-portfolio.vercel.app)
+Check out the live version of my portfolio here: [Portfolio](https://sazzadadib.vercel.app)
 
 ## 🤝 Contributing
 
