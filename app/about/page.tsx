@@ -80,32 +80,34 @@ export default function AboutPage() {
       </Section>
 
       {/* Research Interests Section */}
-      <Section background="white">
+      <Section background="gray">
         <SectionHeader 
           title="Research Interests"
-          subtitle="Areas of focus and expertise"
+          subtitle="Current focus areas and expertise"
           icon={<Target size={40} />}
         />
-        <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <div className="max-w-4xl mx-auto">
           {researchInterests.map((interest, idx) => (
             <Card key={idx} hover>
               <CardHeader>
-                <CardTitle className="text-xl mb-3">
+                <CardTitle className="text-2xl mb-3 text-center">
                   {interest.category}
                 </CardTitle>
                 {interest.description && (
-                  <p className="text-gray-600 mb-4">{interest.description}</p>
+                  <p className="text-gray-600 mb-6 text-center">{interest.description}</p>
                 )}
               </CardHeader>
               <CardContent>
-                <ul className="space-y-3">
+                <div className="grid md:grid-cols-2 gap-4">
                   {interest.topics.map((topic, topicIdx) => (
-                    <li key={topicIdx} className="flex items-start gap-2">
-                      <span className="text-blue-600 mt-1 font-bold">•</span>
+                    <div key={topicIdx} className="flex items-start gap-3 p-3 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors">
+                      <Badge variant="primary" size="sm" className="mt-1 flex-shrink-0">
+                        {topicIdx + 1}
+                      </Badge>
                       <span className="text-gray-700">{topic}</span>
-                    </li>
+                    </div>
                   ))}
-                </ul>
+                </div>
               </CardContent>
             </Card>
           ))}
