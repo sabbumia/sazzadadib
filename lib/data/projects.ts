@@ -29,8 +29,8 @@ export const projectsData: Project[] = [
       "SaaS"
     ],
     category: "ai",
-    github: "https://github.com/sazzadadib/ai-doctor-assistant",
-    demo: "https://ai-doctor-assistant.vercel.app",
+    github: "https://github.com/sazzadadib/AI-Doctor-Agent",
+    demo: "https://aidocassistant.vercel.app",
     featured: true
   },
   {
@@ -82,7 +82,7 @@ export const projectsData: Project[] = [
       "NLP"
     ],
     category: "ai",
-    github: "https://github.com/sazzadadib/educational-chatbot",
+    github: "https://github.com/CSE299-LLM-CHATBOT/physics_chat_bot",
     featured: true
   },
   {
@@ -108,7 +108,7 @@ export const projectsData: Project[] = [
       "Data Analysis"
     ],
     category: "ml",
-    github: "https://github.com/sazzadadib/road-accident-analysis",
+    github: "https://github.com/B-I-T-W-I-S-E-M-I-N-D-S/Apply-Data-PreProcessing",
     featured: false
   },
   {
@@ -136,7 +136,7 @@ export const projectsData: Project[] = [
       "Agile"
     ],
     category: "fullstack",
-    github: "https://github.com/sazzadadib/movie-reservation",
+    github: "https://github.com/sazzadadib/BookMySeats-A-cinema-seat-booking-system",
     featured: false
   },
   {
@@ -161,7 +161,7 @@ export const projectsData: Project[] = [
       "CRUD API"
     ],
     category: "web",
-    github: "https://github.com/sazzadadib/viper-travel",
+    github: "https://github.com/sazzadadib/Viper_Travels",
     featured: false
   }
 ];
