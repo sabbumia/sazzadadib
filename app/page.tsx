@@ -32,7 +32,7 @@ export default function Home() {
           subtitle="Exploring cutting-edge areas in AI and software engineering"
           icon={<Award size={40} />}
         />
-        <div className="grid md:grid-cols-2 gap-8">
+         <div className="max-w-2xl mx-auto">
           {researchInterests.map((interest, idx) => (
             <Card key={idx} hover>
               <CardHeader>
