@@ -152,7 +152,8 @@ export async function POST(req: NextRequest) {
 
     // Call OpenRouter API
     const completion = await openai.chat.completions.create({
-      model: "x-ai/grok-4-fast:free",
+      // model: "x-ai/grok-4-fast:free",
+      model: "deepseek/deepseek-chat-v3.1:free",
       messages: messages,
       temperature: 0.7,
       max_tokens: 500,
