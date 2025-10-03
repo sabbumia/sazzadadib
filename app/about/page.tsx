@@ -1,12 +1,13 @@
 // app/about/page.tsx
 
 import React from 'react';
-import { GraduationCap, Award, Target, BookOpen } from 'lucide-react';
+import { GraduationCap, Award, Target, BookOpen, Briefcase } from 'lucide-react';
 import { Hero } from '@/components/layout/Hero';
 import { Section, SectionHeader } from '@/components/ui/Section';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
 import { profileData, educationData, researchInterests } from '@/lib/data/profile';
+import { skillsData } from '@/lib/data/skills';
 
 export const metadata = {
   title: 'About - MD. Sazzad Hossain Adib',
@@ -76,6 +77,33 @@ export default function AboutPage() {
               </ul>
             </CardContent>
           </Card>
+        </div>
+      </Section>
+
+     {/* Skills Overview Section */}
+      <Section background="gradient">
+        <SectionHeader 
+          title="Technical Skills"
+          subtitle="Expertise across AI, full-stack development, and data science"
+          icon={<Briefcase size={40} />}
+        />
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {skillsData.map((category, idx) => (
+            <Card key={idx}>
+              <CardHeader>
+                <CardTitle className="text-lg">{category.category}</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="flex flex-wrap gap-2">
+                  {category.skills.map((skill, skillIdx) => (
+                    <Badge key={skillIdx} variant="primary" size="sm">
+                      {skill}
+                    </Badge>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+          ))}
         </div>
       </Section>
 
