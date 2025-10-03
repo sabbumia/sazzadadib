@@ -6,6 +6,7 @@ import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
 //@ts-ignore
 import './globals.css';
+import CVChatbot from '@/components/CVChatbot';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -32,6 +33,7 @@ export default function RootLayout({
         <Navbar />
         <main className="min-h-screen">
           {children}
+          <CVChatbot />
         </main>
         <Footer />
       </body>
