@@ -18,7 +18,19 @@ EDUCATION:
 - Merit Scholarship (Top 1% of class)
 
 KEY PROJECTS:
-1. AI Doctor Assistant (SaaS Web Application)
+1. DeshiPlate AI: Bangladeshi Food Recognition & Nutrition Assistant
+   - Technologies: Next.js, TypeScript, NextViT, PyTorch, NEON PostgreSQL, Drizzle ORM, OpenRouter AI
+   - AI-powered food recognition system specialized in 33 traditional Bangladeshi dishes
+   - Created custom dataset of Bangladeshi cuisine for training
+   - NextViT deep learning architecture achieving 89.76% accuracy
+   - Real-time inference engine for instant food classification from uploaded images
+   - Personalized nutrition recommendations and health suggestions based on classified dishes
+   - Scalable data operations using NEON PostgreSQL + Drizzle ORM
+   - Deployed on Vercel with modern, responsive UI
+   - GitHub: github.com/sazzadadib/DeshiPlate-AI
+   - Live Demo: deshiplateai.vercel.app
+
+2. AI Doctor Assistant (SaaS Web Application)
    - Technologies: Next.js, TypeScript, NEON PostgreSQL, Clerk, Drizzle ORM, VAPI, OpenRouter AI
    - Voice-powered medical consultation platform with real-time AI healthcare assistance
    - LLM-based symptom analysis and natural doctor-patient conversations
@@ -27,7 +39,7 @@ KEY PROJECTS:
    - Deployed on Vercel
    - GitHub: github.com/sazzadadib/AI-Doctor-Assistant
 
-2. TimeClipAI: Real-Time Action Classification
+3. TimeClipAI: Real-Time Action Classification
    - Technologies: PyTorch, Anchor Transformers, I3D, Python
    - Framework for online temporal action localization
    - Real-time action classification in full-length videos
@@ -35,24 +47,24 @@ KEY PROJECTS:
    - State-of-the-art performance
    - GitHub: github.com/sazzadadib/CSE499-TimeClip_AI
 
-3. Educational Chatbot using RAG
+4. Educational Chatbot using RAG
    - Technologies: SLMs, Python, Ollama, LangChain, HuggingFace, FastAPI
    - Lightweight SLM-based chatbot for offline use
    - 75% accuracy on 4,000-question dataset using RAGChecker
    - Designed for underserved communities
 
-4. Road Accident Analysis System
+5. Road Accident Analysis System
    - Technologies: Python, Scikit-learn, NumPy, Pandas
    - Predicted patient status and injury type using ML models
    - 99.1% accuracy for status prediction, 89% for injury type
    - Compared multiple algorithms: Logistic Regression, Decision Tree, SVM, XGBoost, Random Forest
 
-5. Agile-Driven Movie Reservation Website
+6. Agile-Driven Movie Reservation Website
    - Technologies: Node.js, React, MongoDB, Postman, Jest
    - Developed with 5-member team using Agile Scrum
    - MVC architecture, JSDoc documentation, Jest unit tests
 
-6. Viper Travel Booking Website
+7. Viper Travel Booking Website
    - Technologies: PHP, MySQL, JavaScript, CSS
    - Dynamic SQL-based CRUD API
    - End-to-end booking features
@@ -70,6 +82,8 @@ Applied AI and Machine Learning:
 - Efficient LLM Deployment (Pruning, Quantization)
 - Retrieval-Augmented Generation (RAG) Systems
 - Small Language Models for Edge AI
+- Computer Vision and Image Classification
+- Food Recognition Systems
 
 Full-Stack & Scalable Systems:
 - MERN Stack and API Development
@@ -86,6 +100,7 @@ Machine Learning & AI:
 - PyTorch, Scikit-learn, HuggingFace Transformers
 - LangChain, LLamaIndex, Ollama
 - RAG, LLM/SLM Fine-tuning, Pruning, Prompt Engineering
+- Computer Vision, Image Classification, Deep Learning Architectures (NextViT)
 
 Data & Visualization:
 - Pandas, NumPy, Matplotlib, Seaborn, OpenCV
