@@ -60,6 +60,37 @@ export const projectsData: Project[] = [
     featured: true
   },
   {
+    id: "deshiplate-ai",
+    title: "DeshiPlate AI: Bangladeshi Food Recognition",
+    description: "AI-powered food recognition system specialized in traditional Bangladeshi cuisine with nutrition assistance",
+    longDescription: "An intelligent food recognition platform leveraging deep learning to identify 33 traditional Bangladeshi dishes, providing instant nutritional insights and personalized health recommendations.",
+    features: [
+      "AI-powered recognition of 33 traditional Bangladeshi dishes",
+      "Custom-curated dataset of Bangladeshi cuisine for model training",
+      "NextViT deep learning architecture achieving 89.76% accuracy",
+      "Real-time inference engine for instant food classification from images",
+      "Personalized nutrition recommendations based on classified dishes",
+      "Health suggestions tailored to identified food items",
+      "NEON PostgreSQL + Drizzle ORM for scalable data operations",
+      "Modern, responsive UI deployed on Vercel"
+    ],
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "NextViT",
+      "PyTorch",
+      "Deep Learning",
+      "PostgreSQL",
+      "Drizzle ORM",
+      "OpenRouter AI",
+      "Computer Vision"
+    ],
+    category: "ai",
+    github: "https://github.com/sazzadadib/DeshiPlate-AI",
+    demo: "https://deshiplateai.vercel.app",
+    featured: true
+  },
+  {
     id: "educational-chatbot",
     title: "Educational Chatbot using RAG",
     description: "Lightweight SLM-based chatbot for offline, device-efficient educational assistance",
