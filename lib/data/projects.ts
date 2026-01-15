@@ -127,7 +127,7 @@ export const projectsData: Project[] = [
     description: "AI-powered daily vocabulary testing platform with progress tracking and smart word management",
     longDescription: "A comprehensive English learning platform that leverages Google Gemini AI to generate daily vocabulary tests, featuring intelligent progress tracking, sequential learning paths, and personalized word-saving capabilities for effective language mastery.",
     features: [
-      "AI-generated daily vocabulary tests using Google Gemini 2.0 Flash",
+      "AI-generated daily vocabulary tests using Google Gemini 3.0 Flash",
       "Registration date-based test access with sequential learning enforcement",
       "Comprehensive progress tracking with score history and analytics",
       "Save word feature with full CRUD operations and search functionality",
@@ -257,3 +257,4 @@ export const projectsData: Project[] = [
     featured: false
   }
 ];
+
