@@ -23,7 +23,7 @@ export const educationData: Education = {
   field: "Computer Science and Engineering",
   duration: "Sep 2021 – Present",
   location: "Dhaka, Bangladesh",
-  cgpa: "3.85/4.00",
+  cgpa: "3.83/4.00",
   achievements: [
     "Merit Scholarship - Top 1% of class",
     "Published research at IEEE AICCSA 2025",
@@ -60,4 +60,5 @@ export const references: Reference[] = [
     institution: "North South University",
     email: "nabeel.mohammed@northsouth.edu"
   }
+
 ];
