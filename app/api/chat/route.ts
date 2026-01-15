@@ -61,7 +61,7 @@ KEY PROJECTS:
    - Live Demo: interviewbd.vercel.app
 
 5. Daily English Vocabulary Platform
-   - Technologies: Next.js, TypeScript, Google Gemini 2.0 Flash, PostgreSQL, Drizzle ORM, JWT Auth
+   - Technologies: Next.js, TypeScript, Google Gemini 3.0 Flash, PostgreSQL, Drizzle ORM, JWT Auth
    - AI-generated daily vocabulary tests with automated Vercel Cron Jobs
    - Registration date-based test access ensuring sequential learning progression
    - Comprehensive progress tracking with score history and analytics
@@ -259,4 +259,5 @@ export async function POST(req: NextRequest) {
     );
   }
 }
+
 
