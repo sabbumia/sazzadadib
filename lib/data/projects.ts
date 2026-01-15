@@ -91,6 +91,43 @@ export const projectsData: Project[] = [
     featured: true
   },
   {
+    id: "interviewbd",
+    title: "InterviewBD: Interview Preparation Platform",
+    description: "Community-driven platform for sharing and discovering real interview questions across various fields",
+    longDescription: "A comprehensive interview preparation ecosystem where professionals share authentic interview experiences, enabling job seekers to prepare effectively with field-specific questions, verified contributors, and collaborative learning features.",
+    features: [
+      "Hierarchical content organization: Fields → Categories → Questions with answers",
+      "Profile verification system with moderator approval for credible contributors",
+      "Real-time messaging with online status indicators and activity timestamps",
+      "Advanced search and filtering for targeted question discovery",
+      "Like and bookmark system for personalized question collections",
+      "Badge system recognizing top contributors and engagement levels",
+      "Three-tier role system: Admin, Moderator, and User with granular permissions",
+      "Comprehensive admin dashboard with analytics and content management",
+      "Report and moderation system for maintaining content quality",
+      "Connection requests and professional networking features",
+      "Activity statistics tracking contributions and engagement metrics",
+      "JWT-based authentication with email verification",
+      "PostgreSQL + Drizzle ORM for efficient data operations",
+      "Fully responsive design deployed on Vercel"
+    ],
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Drizzle ORM",
+      "JWT Auth",
+      "Real-time Chat",
+      "Nodemailer",
+      "Tailwind CSS",
+      "Vercel"
+    ],
+    category: "fullstack",
+    github: "https://github.com/sazzadadib/interviewbd",
+    demo: "https://interviewbd.vercel.app",
+    featured: true
+  },
+  {
     id: "educational-chatbot",
     title: "Educational Chatbot using RAG",
     description: "Lightweight SLM-based chatbot for offline, device-efficient educational assistance",
