@@ -117,7 +117,7 @@ export const projectsData: Project[] = [
       "Vercel"
     ],
     category: "fullstack",
-    github: "https://github.com/sazzadadib/interviewbd",
+    github: "https://github.com/sazzadadib/InterviewBD-Platform",
     demo: "https://interviewbd.vercel.app",
     featured: true
   },
@@ -227,3 +227,4 @@ export const projectsData: Project[] = [
     featured: false
   }
 ];
+
