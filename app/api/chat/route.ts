@@ -14,7 +14,7 @@ CONTACT INFORMATION:
 EDUCATION:
 - North South University (Sep 2021 – Present)
 - Bachelor of Science in Computer Science and Engineering
-- CGPA: 3.85/4.00
+- CGPA: 3.83/4.00
 - Merit Scholarship (Top 1% of class)
 
 KEY PROJECTS:
@@ -38,6 +38,7 @@ KEY PROJECTS:
    - Automatic medical report generation
    - Deployed on Vercel
    - GitHub: github.com/sazzadadib/AI-Doctor-Assistant
+   - Live Demo: aidocassistant.vercel.app/
 
 3. TimeClipAI: Real-Time Action Classification
    - Technologies: PyTorch, Anchor Transformers, I3D, Python
@@ -47,24 +48,46 @@ KEY PROJECTS:
    - State-of-the-art performance
    - GitHub: github.com/sazzadadib/CSE499-TimeClip_AI
 
-4. Educational Chatbot using RAG
+4. InterviewBD: Interview Preparation Platform
+   - Technologies: Next.js, TypeScript, PostgreSQL, Drizzle ORM, JWT Auth, Nodemailer
+   - Community-driven platform for sharing real interview questions across fields
+   - Hierarchical organization: Fields → Categories → Questions with answers
+   - Profile verification system and contributor badge recognition
+   - Real-time messaging with online status and activity tracking
+   - Three-tier role management (Admin, Moderator, User) with granular permissions
+   - Advanced search, filtering, like/bookmark system for personalized collections
+   - Moderation tools, reporting system, and analytics dashboard
+   - GitHub: github.com/sazzadadib/InterviewBD-Platform
+   - Live Demo: interviewbd.vercel.app
+
+5. Daily English Vocabulary Platform
+   - Technologies: Next.js, TypeScript, Google Gemini 2.0 Flash, PostgreSQL, Drizzle ORM, JWT Auth
+   - AI-generated daily vocabulary tests with automated Vercel Cron Jobs
+   - Registration date-based test access ensuring sequential learning progression
+   - Comprehensive progress tracking with score history and analytics
+   - Save word feature with CRUD operations, search, and personal notes
+   - Similar tech stack to InterviewBD for auth and database operations
+   - GitHub: github.com/sazzadadib/Daily-Test
+   - Live Demo: dailyengtest.vercel.app
+
+6. Educational Chatbot using RAG
    - Technologies: SLMs, Python, Ollama, LangChain, HuggingFace, FastAPI
    - Lightweight SLM-based chatbot for offline use
    - 75% accuracy on 4,000-question dataset using RAGChecker
    - Designed for underserved communities
 
-5. Road Accident Analysis System
+7. Road Accident Analysis System
    - Technologies: Python, Scikit-learn, NumPy, Pandas
    - Predicted patient status and injury type using ML models
    - 99.1% accuracy for status prediction, 89% for injury type
    - Compared multiple algorithms: Logistic Regression, Decision Tree, SVM, XGBoost, Random Forest
 
-6. Agile-Driven Movie Reservation Website
+8. Agile-Driven Movie Reservation Website
    - Technologies: Node.js, React, MongoDB, Postman, Jest
    - Developed with 5-member team using Agile Scrum
    - MVC architecture, JSDoc documentation, Jest unit tests
 
-7. Viper Travel Booking Website
+9. Viper Travel Booking Website
    - Technologies: PHP, MySQL, JavaScript, CSS
    - Dynamic SQL-based CRUD API
    - End-to-end booking features
@@ -236,3 +259,4 @@ export async function POST(req: NextRequest) {
     );
   }
 }
+
