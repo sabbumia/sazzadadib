@@ -11,7 +11,7 @@ export const profileData: Profile = {
   github: "https://github.com/sazzadadib",
   scholar: "https://scholar.google.com/citations?user=sazzadadib",
   bio: [
-    "I am a passionate Computer Science student at North South University with a strong focus on Applied AI and Full-Stack Development. Currently maintaining a CGPA of 3.85/4.00 and recognized with a Merit Scholarship for being in the top 1% of my class.",
+    "I am a passionate Computer Science student at North South University with a strong focus on Applied AI and Full-Stack Development. Currently maintaining a CGPA of 3.83/4.00 and recognized with a Merit Scholarship for being in the top 1% of my class.",
     "My research and development work spans across cutting-edge areas including Temporal Action Localization, Efficient LLM Deployment, Retrieval-Augmented Generation systems, and scalable web applications. I have published research at IEEE AICCSA 2025 and developed multiple production-ready AI-powered applications.",
     "I am actively seeking research opportunities and collaborations in AI/ML, with a particular interest in efficient model deployment and real-world applications of large language models."
   ]
@@ -62,3 +62,4 @@ export const references: Reference[] = [
   }
 
 ];
+
