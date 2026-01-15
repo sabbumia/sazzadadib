@@ -96,20 +96,14 @@ export const projectsData: Project[] = [
     description: "Community-driven platform for sharing and discovering real interview questions across various fields",
     longDescription: "A comprehensive interview preparation ecosystem where professionals share authentic interview experiences, enabling job seekers to prepare effectively with field-specific questions, verified contributors, and collaborative learning features.",
     features: [
-      "Hierarchical content organization: Fields → Categories → Questions with answers",
-      "Profile verification system with moderator approval for credible contributors",
-      "Real-time messaging with online status indicators and activity timestamps",
-      "Advanced search and filtering for targeted question discovery",
-      "Like and bookmark system for personalized question collections",
-      "Badge system recognizing top contributors and engagement levels",
-      "Three-tier role system: Admin, Moderator, and User with granular permissions",
-      "Comprehensive admin dashboard with analytics and content management",
-      "Report and moderation system for maintaining content quality",
-      "Connection requests and professional networking features",
-      "Activity statistics tracking contributions and engagement metrics",
-      "JWT-based authentication with email verification",
-      "PostgreSQL + Drizzle ORM for efficient data operations",
-      "Fully responsive design deployed on Vercel"
+      "Hierarchical content organization with fields, categories, and Q&A system",
+      "Profile verification and badge system for credible contributors",
+      "Real-time messaging with online status and activity tracking",
+      "Three-tier role management: Admin, Moderator, and User permissions",
+      "Advanced search, filtering, and like/bookmark functionality",
+      "Comprehensive moderation tools with reporting and analytics dashboard",
+      "JWT authentication with email verification and PostgreSQL + Drizzle ORM",
+      "Deployed on Vercel with fully responsive design"
     ],
     technologies: [
       "Next.js",
