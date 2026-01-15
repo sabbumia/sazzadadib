@@ -117,8 +117,38 @@ export const projectsData: Project[] = [
       "Vercel"
     ],
     category: "fullstack",
-    github: "https://github.com/sazzadadib/InterviewBD-Platform",
+    github: "https://github.com/sazzadadib/interviewbd",
     demo: "https://interviewbd.vercel.app",
+    featured: true
+  },
+  {
+    id: "english-learning-platform",
+    title: "Daily English Vocabulary Platform",
+    description: "AI-powered daily vocabulary testing platform with progress tracking and smart word management",
+    longDescription: "A comprehensive English learning platform that leverages Google Gemini AI to generate daily vocabulary tests, featuring intelligent progress tracking, sequential learning paths, and personalized word-saving capabilities for effective language mastery.",
+    features: [
+      "AI-generated daily vocabulary tests using Google Gemini 2.0 Flash",
+      "Registration date-based test access with sequential learning enforcement",
+      "Comprehensive progress tracking with score history and analytics",
+      "Save word feature with full CRUD operations and search functionality",
+      "Personal notes system for saved words with case-insensitive filtering",
+      "JWT-based authentication with secure password hashing",
+      "Automated daily test generation via Vercel Cron Jobs",
+      "Neon PostgreSQL + Drizzle ORM for persistent data storage"
+    ],
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Google Gemini AI",
+      "PostgreSQL",
+      "Drizzle ORM",
+      "JWT Auth",
+      "Tailwind CSS",
+      "Vercel Cron"
+    ],
+    category: "ai",
+    github: "https://github.com/sazzadadib/english-learning-platform",
+    demo: "https://dailyengtest.vercel.app",
     featured: true
   },
   {
@@ -227,4 +257,3 @@ export const projectsData: Project[] = [
     featured: false
   }
 ];
-
