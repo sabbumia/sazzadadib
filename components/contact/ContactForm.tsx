@@ -76,7 +76,7 @@ export const ContactForm: React.FC = () => {
             required
             value={form.name}
             onChange={update('name')}
-            placeholder="Jane Doe"
+            placeholder="Sazzad Hossain"
             className={inputClasses}
           />
         </div>
@@ -91,7 +91,7 @@ export const ContactForm: React.FC = () => {
             required
             value={form.email}
             onChange={update('email')}
-            placeholder="jane@example.com"
+            placeholder="sazzad@example.com"
             className={inputClasses}
           />
         </div>
