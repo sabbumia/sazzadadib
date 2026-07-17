@@ -36,9 +36,14 @@ export async function POST(req: NextRequest) {
 
     const safeSubject = (typeof subject === "string" && subject.trim()) || "New message from your portfolio";
 
+    // Without a verified domain, Resend only delivers to the email the account was
+    // registered with — so the inbox address must be the Resend account email, which
+    // may differ from the public contact address in siteConfig.
+    const toEmail = process.env.CONTACT_TO_EMAIL || siteConfig.email;
+
     const { error } = await resend.emails.send({
       from: "Portfolio Contact Form <onboarding@resend.dev>",
-      to: siteConfig.email,
+      to: toEmail,
       replyTo: email.trim(),
       subject: `[Portfolio] ${safeSubject}`,
       text: `From: ${name.trim()} <${email.trim()}>\n\n${message.trim()}`,
